@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}" />
+        {% block head %}{% endblock head %}
+</head>
+<body>
+    
+  <div class='background'> 
+    <div class='list'>
+    
+        <a href='/family'>الاسر والاعمار</a>
+        <a href='/'>حامل/مرضع</a>
+        <a href='/'>الرسائل</a>
+        <a href='/'>مواك أطفال</a>
+        <a href='/'>مواك</a>
+        <a href='/'>إعاقة</a>
+    
+    </div>
+
+     
+
+ {% block body %}
+ 
+ 
+ {% endblock body %}
+
+  </div>
+</body>
+</html>
