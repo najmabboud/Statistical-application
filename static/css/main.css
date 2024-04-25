@@ -1,6 +1,6 @@
 body {
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
     overflow: hidden;
     
 }
@@ -22,46 +22,76 @@ body {
     100% { background-position: 100% 0; }
 }
 
-.input-group {
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 20px;
+.family-form{
     float: center;
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+    border: solid;
+    border-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px red;
+    background-color:rgba(255, 255,255, 0.5);
+
+}
+.family-form input{
+    margin: 10px;
+}
+
+.family-form button{
+    width: 100%;
+    text-align: center;
     border-radius: 10px;
-    width: 30%;
-    margin: 0 auto;
-    margin-top: 100px;
-}
-
-.input-group input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: none;
-}
-
-.input-group button {
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-    background-color: #4CAF50;
     color: white;
+    background-color: red;
+    margin: 5px;
+    
 }
 
-.list{
-    display: flex;
+.messages-div{
+    float: center;
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+    border: solid;
+    border-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px red;
+    background-color:rgba(255, 255,255, 0.5);
+
+}
+.messages-div input{
+    margin: 10px;
+}
+
+.messages-div button{
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    margin: 5px;
+    
+}
+
+
+
+
+.list1{
     justify-content: space-around;
-    background-color: (255, 255, 255, 0.5);
+    display: flex;
+    float: center;
+    
     padding: 10px;
     
-    width: 80%;
+    
     border-radius: 10px ;
     
-    margin: 10px;
+    margin: 20px;
     
 }
-.list a{
+.list1 a{
+    
     padding:5px;
     margin: 5px;
     color: rgb(107, 3, 31);
@@ -70,4 +100,92 @@ body {
     border: solid;
     border-color:white;
     font-size: 20px;
+}
+.list2{
+    justify-content: space-around;
+    display: flex;
+    float: center;
+    
+    padding: 10px;
+    
+    
+    border-radius: 10px ;
+    
+    margin: 20px;
+    
+}
+.list2 a{
+    padding:5px;
+    margin: 5px;
+    color: rgb(107, 3, 31);
+    border-radius: 10px;
+    
+    border: solid;
+    border-color:white;
+    font-size: 20px;
+}
+.info{
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 40%;
+    width: 40%;
+    margin: 5px;
+    padding: 5px;
+    border: double;
+    background-color: white;
+    text-align: center;
+    overflow: scroll;
+}
+.child-form{
+    float: center;
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+    border: solid;
+    border-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px red;
+    background-color:rgba(255, 255,255, 0.5);
+
+}
+.child-form input{
+    margin: 10px;
+}
+
+.child-form button{
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    margin: 5px;
+    
+}
+.eaa-form{
+    float: center;
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+    border: solid;
+    border-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px red;
+    background-color:rgba(255, 255,255, 0.5);
+
+}
+.eaa-form input{
+    margin: 10px;
+}
+
+.eaa-form button{
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    margin: 5px;
+    
 }
