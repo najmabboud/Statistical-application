@@ -1,0 +1,276 @@
+body {
+    margin: 10;
+    padding: 10;
+    overflow: hidden;
+    
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: scrolling-bg 80s linear infinite alternate;
+}
+
+@keyframes scrolling-bg {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 0; }
+}
+
+.family-form{
+    float: center;
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+    border: solid;
+    border-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px red;
+    background-color:rgba(255, 255,255, 0.5);
+
+}
+.family-form input{
+    margin: 10px;
+    width: 80%;
+}
+
+.family-form button{
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    margin: 5px;
+    
+}
+
+.messages-div{
+    float: center;
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+    border: solid;
+    border-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px red;
+    background-color:rgba(255, 255,255, 0.5);
+
+}
+.messages-div input{
+    margin: 10px;
+}
+
+.messages-div button{
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    margin: 5px;
+    
+}
+
+
+
+
+.list1{
+    justify-content: space-around;
+    display: flex;
+    float: center;
+    
+    padding: 10px;
+    
+    
+    border-radius: 10px ;
+    
+    margin: 20px;
+    
+}
+.list1 a{
+    
+    padding:5px;
+    margin: 5px;
+    color: rgb(107, 3, 31);
+    border-radius: 10px;
+    
+    border: solid;
+    border-color:white;
+    font-size: 20px;
+}
+.list2{
+    justify-content: space-around;
+    display: flex;
+    float: center;
+    
+    padding: 10px;
+    
+    
+    border-radius: 10px ;
+    
+    margin: 20px;
+    
+}
+.list2 a{
+    padding:5px;
+    margin: 5px;
+    color: rgb(107, 3, 31);
+    border-radius: 10px;
+    
+    border: solid;
+    border-color:white;
+    font-size: 20px;
+}
+
+.list3{
+    justify-content: space-around;
+    display: flex;
+    float: center;
+    
+    padding: 10px;
+    
+    
+    border-radius: 10px ;
+    
+    margin: 20px;
+    
+}
+.list3 a{
+    padding:5px;
+    margin: 5px;
+    color: rgb(107, 3, 31);
+    border-radius: 10px;
+    
+    border: solid;
+    border-color:white;
+    font-size: 20px;
+}
+
+.info{
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 40%;
+    width: 40%;
+    margin: 5px;
+    padding: 5px;
+    border: double;
+    background-color: white;
+    text-align: center;
+    overflow: scroll;
+    
+    box-shadow: 2px 2px 2px 0.55px rgb(38, 159, 224) inset;
+}
+.child-form{
+    float: center;
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+    border: solid;
+    border-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px red;
+    background-color:rgba(255, 255,255, 0.5);
+
+}
+.child-form input{
+    margin: 10px;
+}
+
+.child-form button{
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    margin: 5px;
+    
+}
+.eaa-form{
+    float: center;
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+    border: solid;
+    border-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px red;
+    background-color:rgba(255, 255,255, 0.5);
+
+}
+.eaa-form input{
+    margin: 10px;
+}
+
+.eaa-form button{
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    margin: 5px;
+    
+}
+.hamo-form{
+    float: center;
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+    border: solid;
+    border-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px red;
+    background-color:rgba(255, 255,255, 0.5);
+
+}
+.hamo-form input{
+    margin: 10px;
+    width: 80%;
+}
+
+.hamo-form button{
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    margin: 5px;
+    
+}
+.info p{
+    font-style: oblique;
+    color: rgb(156, 33, 33);
+}
+
+.state-form{
+    float: center;
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+    border: solid;
+    border-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px red;
+    background-color:rgba(255, 255,255, 0.5);
+
+}
+.state-form input{
+    margin: 10px;
+    width: 80%;
+}
+
+.state-form button{
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    margin: 5px;
+    
+}
