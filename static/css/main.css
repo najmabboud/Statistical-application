@@ -50,7 +50,11 @@ body {
 }
 
 .messages-div{
-    float: center;
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
     top: 70%;
     left: 50%;
     width: 40%;
