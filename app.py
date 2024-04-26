@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for
 from dateutil.relativedelta import relativedelta
 import datetime
-
+import webbrowser
 
 
 
@@ -163,7 +163,7 @@ def messages():
             if i == 'تغذية الرضع':
                 m1.append('1')
                    
-            elif i == 'تغذية الاطفال الصغار':
+            elif i == 'تغذية الاطفال الصفار':
                 m2.append('1')
                     
             elif i == 'الغذاء الصحي':
